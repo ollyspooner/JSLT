@@ -1,0 +1,12 @@
+Buildfile: C:\Mendix\libs\JSLT\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 1 source file to C:\Mendix\libs\JSLT\deployment\run\bin
+
+package:
+      [jar] Building jar: C:\Mendix\libs\JSLT\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+
