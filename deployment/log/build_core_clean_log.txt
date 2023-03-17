@@ -1,8 +1,0 @@
-Buildfile: C:\Mendix\libs\JSLT\deployment\build_core.xml
-
-clean:
-   [delete] Deleting directory C:\Mendix\libs\JSLT\deployment\model
-
-BUILD SUCCESSFUL
-Total time: 0 seconds
-

@@ -8,6 +8,7 @@ public class UserActionsRegistrar
   {
     registrator.bundleComponentLoaded();
     registrator.registerUserAction(jslt.actions.JSLT.class);
+    registrator.registerUserAction(jslt.actions.JSLT_WithObjectFilter.class);
     registrator.registerUserAction(system.actions.VerifyPassword.class);
   }
 }

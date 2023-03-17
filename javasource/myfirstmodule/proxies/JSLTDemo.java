@@ -22,7 +22,9 @@ public class JSLTDemo
 	{
 		Input("Input"),
 		Expression("Expression"),
-		Output("Output");
+		Output("Output"),
+		WithObjectFilter("WithObjectFilter"),
+		Filter("Filter");
 
 		private java.lang.String metaName;
 
@@ -215,6 +217,78 @@ public class JSLTDemo
 	public final void setOutput(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String output)
 	{
 		getMendixObject().setValue(context, MemberNames.Output.toString(), output);
+	}
+
+	/**
+	 * @return value of WithObjectFilter
+	 */
+	public final java.lang.Boolean getWithObjectFilter()
+	{
+		return getWithObjectFilter(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of WithObjectFilter
+	 */
+	public final java.lang.Boolean getWithObjectFilter(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.Boolean) getMendixObject().getValue(context, MemberNames.WithObjectFilter.toString());
+	}
+
+	/**
+	 * Set value of WithObjectFilter
+	 * @param withobjectfilter
+	 */
+	public final void setWithObjectFilter(java.lang.Boolean withobjectfilter)
+	{
+		setWithObjectFilter(getContext(), withobjectfilter);
+	}
+
+	/**
+	 * Set value of WithObjectFilter
+	 * @param context
+	 * @param withobjectfilter
+	 */
+	public final void setWithObjectFilter(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Boolean withobjectfilter)
+	{
+		getMendixObject().setValue(context, MemberNames.WithObjectFilter.toString(), withobjectfilter);
+	}
+
+	/**
+	 * @return value of Filter
+	 */
+	public final java.lang.String getFilter()
+	{
+		return getFilter(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of Filter
+	 */
+	public final java.lang.String getFilter(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.Filter.toString());
+	}
+
+	/**
+	 * Set value of Filter
+	 * @param filter
+	 */
+	public final void setFilter(java.lang.String filter)
+	{
+		setFilter(getContext(), filter);
+	}
+
+	/**
+	 * Set value of Filter
+	 * @param context
+	 * @param filter
+	 */
+	public final void setFilter(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String filter)
+	{
+		getMendixObject().setValue(context, MemberNames.Filter.toString(), filter);
 	}
 
 	/**
